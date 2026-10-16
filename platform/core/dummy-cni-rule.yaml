@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-new-cni-rule
+  namespace: lab
+data:
+  status: "active"
